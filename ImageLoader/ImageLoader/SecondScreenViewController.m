@@ -71,6 +71,8 @@
         [self imageLoader:@"http://www.guitarworld.com/sites/default/files/public/styles/article_detail_featured__622x439_/public/featured-image/gibson-sg-five-things-you-dont-know.jpg"];
         [self imageLoader:@"http://images.gibson.com.s3.amazonaws.com/Lifestyle/Spanish/20151216_LP-Tomato_feature.jpg"];
         [self imageLoader:@"https://media.sweetwater.com/api/i/ha-d96a56cb13852650__q-85__hmac-658d329eea70b6c90989145034731b0368289c4d/images/items/1800/DSFR17VSCH-xlarge.jpg"];
+        [self imageLoader:@"https://images.reverb.com/image/upload/s--bRnzFz__--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_620,q_90,w_620/v1422916027/tazulffjhxuqcpuvttrj.jpg"];
+        [self imageLoader:@"http://imperialvintageguitars.com/wp-content/uploads/imported/9/1976-Gibson-Explorer-Limited-Edition-Original-Vintage-Electric-Guitar-wOHSC-272387859989-4.jpg"];
         
         // Вызовется, когда все задания по загрузке будут выполнены
         dispatch_group_notify(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{

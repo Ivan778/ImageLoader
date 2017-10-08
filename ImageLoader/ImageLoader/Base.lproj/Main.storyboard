@@ -98,7 +98,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="245"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wye-hA-tTO" id="8GD-IB-jjy">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="244.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="244"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" tag="111" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ajK-TC-tAD">
@@ -129,11 +129,17 @@
                             <outlet property="delegate" destination="zRz-i2-cTs" id="eRT-im-foA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Third Screen" id="kGk-xt-RXp"/>
+                    <navigationItem key="navigationItem" title="Third Screen" id="kGk-xt-RXp">
+                        <barButtonItem key="leftBarButtonItem" title="First Screen" id="pTd-rY-KvO">
+                            <connections>
+                                <segue destination="26u-Nj-uvC" kind="presentation" modalTransitionStyle="crossDissolve" id="sAN-zy-e0h"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rpM-3y-tgo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3070" y="824"/>
+            <point key="canvasLocation" x="2959" y="824"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3Do-Nq-wDe">
@@ -151,7 +157,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jQ7-Yb-41T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+            <point key="canvasLocation" x="33" y="38"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6qL-uq-qR6">
@@ -169,7 +175,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1kg-Mt-Ur8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2130" y="824"/>
+            <point key="canvasLocation" x="1942" y="824"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="w2h-Bf-gVU">
