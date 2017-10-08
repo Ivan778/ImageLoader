@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TableViewController.h"
 
 @interface SecondScreenViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *ActivityIndicator;
 
 @end

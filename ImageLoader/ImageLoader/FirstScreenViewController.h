@@ -10,6 +10,8 @@
 
 @interface FirstScreenViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *Image;
+
 
 @end
 

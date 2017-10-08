@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C8AE60B1F8A5729002A0863 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AE60A1F8A5729002A0863 /* TableViewController.m */; };
 		2CC552DA1F89589500145886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC552D81F89589500145886 /* Main.storyboard */; };
 		2CD8AC351F87EBA600E6D421 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD8AC341F87EBA600E6D421 /* main.m */; };
 		2CD8AC381F87EBA600E6D421 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD8AC371F87EBA600E6D421 /* AppDelegate.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C8AE6091F8A5729002A0863 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2C8AE60A1F8A5729002A0863 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		2CC552D91F89589500145886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CD8AC301F87EBA600E6D421 /* ImageLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD8AC341F87EBA600E6D421 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CC552DB1F895D4000145886 /* ThirdScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C8AE6091F8A5729002A0863 /* TableViewController.h */,
+				2C8AE60A1F8A5729002A0863 /* TableViewController.m */,
+			);
+			name = ThirdScreenViewController;
+			sourceTree = "<group>";
+		};
 		2CD8AC271F87EBA600E6D421 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +73,7 @@
 		2CD8AC321F87EBA600E6D421 /* ImageLoader */ = {
 			isa = PBXGroup;
 			children = (
+				2CC552DB1F895D4000145886 /* ThirdScreenViewController */,
 				2CD8AC4F1F87F70100E6D421 /* SecondScreenViewController */,
 				2CD8AC4B1F87EBE300E6D421 /* ViewController */,
 				2CD8AC4A1F87EBD800E6D421 /* AppDelegate */,
@@ -181,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD8AC3B1F87EBA600E6D421 /* FirstScreenViewController.m in Sources */,
+				2C8AE60B1F8A5729002A0863 /* TableViewController.m in Sources */,
 				2CD8AC381F87EBA600E6D421 /* AppDelegate.m in Sources */,
 				2CD8AC4E1F87F6FB00E6D421 /* SecondScreenViewController.m in Sources */,
 				2CD8AC351F87EBA600E6D421 /* main.m in Sources */,
